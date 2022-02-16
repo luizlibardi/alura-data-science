@@ -3,7 +3,7 @@ import pandas as pd
 # json = open('./files/aluguel.json')
 # print(json)
 
-df_json = pd.read_json('./files/aluguel.json')
+df_json = pd.read_json('./curso-pandas/files/aluguel.json')
 print(df_json)
 
 # txt = open('./files/aluguel.txt')

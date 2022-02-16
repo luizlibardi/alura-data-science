@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-dados = pd.read_csv("./files/aluguel.csv", sep = ';')
+dados = pd.read_csv("./curso-pandas/files/aluguel.csv", sep = ';')
 
 # Tipo Data Frame 
 type(dados)
