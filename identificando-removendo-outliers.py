@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib as plt
 
-dados = pd.read_csv('./curso-pandas/files/aluguel_residencial.csv', sep = ';')
+dados = pd.read_csv('./files/aluguel_residencial.csv', sep = ';')
 
 dados.boxplot(['Valor'])
 dados[dados['Valor'] >= 500000]

@@ -8,7 +8,7 @@
 
 import pandas as pd
 
-dados = pd.read_csv("./curso-pandas/files/dados_residencial.csv", sep = ';')
+dados = pd.read_csv("./files/dados_residencial.csv", sep = ';')
 
 # 1)
 selecao = dados['Tipo'] == 'Apartamento' # Selecionando somente os tipo Apartamento

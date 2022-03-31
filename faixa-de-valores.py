@@ -1,6 +1,6 @@
 import pandas as pd
 
-dados = pd.read_csv('./curso-pandas/files/aluguel.csv', sep =';')
+dados = pd.read_csv('./files/aluguel.csv', sep =';')
 
 classes = [0, 2, 4, 6, 1000]
 

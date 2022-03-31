@@ -30,4 +30,4 @@ dados_aux.pop('Valor m2 Bruto')
 dados.drop(['Valor Bruto', 'Valor m2 Bruto'], axis = 1, inplace = True)
 print(dados)
 
-dados.to_csv('./curso-pandas/files/aluguel_residencial.csv', sep = ';', index = False)
+dados.to_csv('./files/aluguel_residencial.csv', sep = ';', index = False)

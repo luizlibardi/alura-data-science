@@ -4,7 +4,7 @@
 
 import pandas as pd
 
-dados = pd.read_csv('./curso-pandas/files/aluguel.csv', sep = ';')
+dados = pd.read_csv('./files/aluguel.csv', sep = ';')
 dados.head(10)
 
 list(dados['Tipo'].drop_duplicates())
@@ -24,5 +24,5 @@ print(dados_residencial)
 
 ### === Exportando a Base de Dados === ###
 
-dados_residencial.to_csv('./curso-pandas/files/dados_residencial.csv', sep = ';', index = False)
-print(pd.read_csv('./curso-pandas/files/dados_residencial.csv', sep = ';'))
+dados_residencial.to_csv('./files/dados_residencial.csv', sep = ';', index = False)
+print(pd.read_csv('./files/dados_residencial.csv', sep = ';'))

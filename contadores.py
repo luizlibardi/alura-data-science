@@ -7,6 +7,6 @@ print(s)
 
 print(s.value_counts())
 
-dados = pd.read_csv('./curso-pandas/files/aluguel.csv', sep = ';')
+dados = pd.read_csv('./files/aluguel.csv', sep = ';')
 print(dados.Tipo.unique())
 print(dados.Tipo.value_counts())
